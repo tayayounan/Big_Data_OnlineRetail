@@ -46,7 +46,7 @@ A grid search was conducted to optimize hyperparameters for a gradient boosting 
 *Visualization*
 Matplotlib and Seaborn were used for data visualization to provide insights into customer purchasing behavior, product trends, and correlations between features.
 
-**Conclusion**
+# Conclusion
 
 The project demonstrates the application of big data technologies in analyzing retail transactions. By segmenting customers and predicting their preferences, businesses can tailor their marketing strategies and improve customer engagement.
 
