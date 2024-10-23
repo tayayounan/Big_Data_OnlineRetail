@@ -14,7 +14,6 @@ The dataset used in this project is sourced from the UCI Machine Learning Reposi
 - CustomerID: A unique identifier for each customer.
 - InvoiceDate: The date and time of the transaction.
 
-**Key Steps**
 
   # Data Loading and Exploration
   
