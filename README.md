@@ -22,19 +22,26 @@ The dataset was loaded using the ucimlrepo package, and initial exploration was 
 Missing values were handled, particularly in the Description and CustomerID columns.
 
 *Data Preprocessing*
+
 The Description column was transformed to lowercase for consistency.
 Tokenization was applied to convert product descriptions into a list of words.
 Unique products and their total quantities were calculated to identify the most popular items.
+
 *Customer Analysis*
+
 Unique customer counts were calculated, and payments were aggregated to identify total spending by each customer.
 A SQL query was utilized to find the top products sold by country.
 Customers were segmented into two groups based on their purchasing preferences—one group that buys in bulk at lower prices and another group that prefers high-quality items in smaller quantities.
+
 *Sales Analysis*
+
 The dataset was enriched with features such as total sales by hour and by season, enabling insights into purchasing trends over time.
 Visualizations were created to illustrate total sales by hour and season.
 Feature Engineering
 Various features were combined to create a comprehensive dataset for machine learning modeling, including customer segments, temporal features, and textual representations of product descriptions.
+
 *Modeling*
+
 The H2O framework was employed to create predictive models using deep learning and random forests to classify customers into segments.
 A grid search was conducted to optimize hyperparameters for a gradient boosting model, improving model performance.
 *Visualization*
